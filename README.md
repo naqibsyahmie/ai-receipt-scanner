@@ -9,7 +9,6 @@ AI-powered receipt-to-form extraction web app built for AI Internship Assessment
 - Upload receipt image
 - OCR text extraction using Tesseract
 - Local LLM extraction using Ollama + Gemma
-- Auto-filled editable form
 - Editable items table
 - Export structured JSON
 
