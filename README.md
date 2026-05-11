@@ -16,7 +16,7 @@ AI-powered receipt-to-form extraction web app built for AI Internship Assessment
 
 # System Flow
 
-Image → OCR → LLM → Structured JSON → UI Table
+ Image → OCR → LLM → Structured JSON → UI Table
 ---
 
 ## Tech Stack
