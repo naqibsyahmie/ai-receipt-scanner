@@ -107,3 +107,13 @@ Demo Flow
 - LLM processes receipt text
 - Structured JSON is generated
 - Receipt information is displayed in table format
+
+---
+
+The intervention OCR in this flow is to maintain the cost as efficient as possible. This process will cost less then using vision model to do the Text Extraction itself since the input are text. 
+
+Pros:
+Effective for well written printed documents
+
+Cons:
+Bad for handwritten and blurry images
