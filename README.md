@@ -27,8 +27,8 @@ AI-powered receipt-to-form extraction web app built for AI Internship Assessment
 +------------------+
           ↓
 +------------------+
-| Ollama + Gemma   |
-| AI Processing    |
+|   LLM Entity     |
+|   Extractions    |
 +------------------+
           ↓
 +------------------+
@@ -36,8 +36,8 @@ AI-powered receipt-to-form extraction web app built for AI Internship Assessment
 +------------------+
           ↓
 +------------------+
-| Editable UI      |
-| Table + Form     |
+|      User        |
+| Verification Form|
 +------------------+
 ```
 ---
