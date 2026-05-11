@@ -14,6 +14,11 @@ AI-powered receipt-to-form extraction web app built for AI Internship Assessment
 
 ---
 
+# System Flow
+
+Image → OCR → LLM → Structured JSON → UI Table
+---
+
 ## Tech Stack
 
 - Python
@@ -65,3 +70,40 @@ This repository was built for an AI Internship Assessment involving:
 - Generative AI extraction
 - Form auto-fill
 - Editable structured outputs
+
+---
+
+Why JSON Response Is Important
+
+JSON was used because:
+
+- Structured and machine-readable
+- Easy integration with databases and APIs
+- Easy conversion into tables and dashboards
+- Standard format for AI systems and backend applications
+- Easier data validation and processing
+
+Instead of returning plain text, JSON makes the receipt data reusable and scalable for future systems.
+
+---
+Why Gemma Model Was Chosen
+
+Gemma was selected because:
+
+Lightweight and efficient
+Can run locally using Ollama
+Fast inference performance
+Suitable for structured information extraction
+Lower hardware requirements compared to larger models
+
+This makes it practical for local AI deployment and internship assessment environments.
+
+---
+
+Demo Flow
+
+- Upload receipt image
+- OCR extracts text
+- LLM processes receipt text
+- Structured JSON is generated
+- Receipt information is displayed in table format
