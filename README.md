@@ -16,7 +16,30 @@ AI-powered receipt-to-form extraction web app built for AI Internship Assessment
 
 # System Flow
 
- Image → OCR → LLM → Structured JSON → UI Table
+```text
++------------------+
+| Receipt Image    |
++------------------+
+          ↓
++------------------+
+| Tesseract OCR    |
+| Text Extraction  |
++------------------+
+          ↓
++------------------+
+| Ollama + Gemma   |
+| AI Processing    |
++------------------+
+          ↓
++------------------+
+| Structured JSON  |
++------------------+
+          ↓
++------------------+
+| Editable UI      |
+| Table + Form     |
++------------------+
+```
 ---
 
 ## Tech Stack
